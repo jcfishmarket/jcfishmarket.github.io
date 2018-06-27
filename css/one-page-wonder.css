@@ -135,6 +135,23 @@ header.masthead .bg-circle-4 {
 
 
 @include media-breakpoint-up(sm) {
+  header.masthead {
+    padding-top: calc(2rem + 55px);
+    padding-bottom: 2rem;
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 1.6rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  header.masthead {
+    padding-top: calc(4rem + 55px);
+    padding-bottom: 4rem;
+  }
   header.masthead .masthead-content .masthead-heading {
     font-size: 2rem;
   }
@@ -143,16 +160,11 @@ header.masthead .bg-circle-4 {
   }
 }
 
-@include media-breakpoint-up(md) {
-  header.masthead .masthead-content .masthead-heading {
-    font-size: 4rem;
-  }
-  header.masthead .masthead-content .masthead-subheading {
-    font-size: 2rem;
-  }
-}
-
 @include media-breakpoint-up(lg) {
+  header.masthead {
+    padding-top: calc(6rem + 55px);
+    padding-bottom: 6rem;
+  }
   header.masthead .masthead-content .masthead-heading {
     font-size: 6rem;
   }
