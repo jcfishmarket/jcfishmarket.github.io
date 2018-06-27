@@ -132,6 +132,37 @@ header.masthead .bg-circle-4 {
   }
 }
 
+
+
+@include media-breakpoint-up(sm) {
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 1.6rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 2rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 1rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 6rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 4rem;
+  }
+}
+
+
+
 .bg-primary {
   background-color: #ee0979 !important;
 }
