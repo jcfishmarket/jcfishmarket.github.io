@@ -33,8 +33,8 @@ h6 {
 }
 
 .navbar-custom {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
   background-color: rgba(0, 0, 0, 0.7); 
   /*background-color: rgba(255,215,3,0.94);*/
 }
@@ -66,6 +66,9 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  
+   padding-top: calc(2rem + 55px);
+   padding-bottom: 2rem;   
 }
 
 
@@ -77,11 +80,11 @@ header.masthead .masthead-content {
 }
 
 header.masthead .masthead-content .masthead-heading {
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 header.masthead .masthead-content .masthead-subheading {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 header.masthead .bg-circle {
@@ -91,39 +94,16 @@ header.masthead .bg-circle {
   background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
 }
 
-header.masthead .bg-circle-1 {
-  height: 90rem;
-  width: 90rem;
-  bottom: -55rem;
-  left: -55rem;
-}
 
-header.masthead .bg-circle-2 {
-  height: 50rem;
-  width: 50rem;
-  top: -25rem;
-  right: -25rem;
-}
-
-header.masthead .bg-circle-3 {
-  height: 20rem;
-  width: 20rem;
-  bottom: -10rem;
-  right: 5%;
-}
-
-header.masthead .bg-circle-4 {
-  height: 30rem;
-  width: 30rem;
-  top: -5rem;
-  right: 35%;
-}
-
-@media (min-width: 992px) {
+@media (min-width: 992px) { 
+  img {
+    height: 500px;
+  }
   header.masthead {
     padding-top: calc(10rem + 55px);
     padding-bottom: 10rem;
   }
+
   header.masthead .masthead-content .masthead-heading {
     font-size: 6rem;
   }
@@ -131,40 +111,13 @@ header.masthead .bg-circle-4 {
     font-size: 4rem;
   }
 }
-
-
-
-@include media-breakpoint-up(sm) {
+/*
+@media (min-width: 768px) { 
   header.masthead {
-    padding-top: calc(4rem + 55px);
+    padding-top: calc(10rem + 55px);
     padding-bottom: 10rem;
   }
-  header.masthead .masthead-content .masthead-heading {
-    font-size: 3rem;
-  }
-  header.masthead .masthead-content .masthead-subheading {
-    font-size: 1.5rem;
-  }
-}
 
-@include media-breakpoint-up(md) {
-  header.masthead {
-    padding-top: calc(4rem + 55px);
-    padding-bottom: 4rem;
-  }
-  header.masthead .masthead-content .masthead-heading {
-    font-size: 2rem;
-  }
-  header.masthead .masthead-content .masthead-subheading {
-    font-size: 1rem;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  header.masthead {
-    padding-top: calc(6rem + 55px);
-    padding-bottom: 6rem;
-  }
   header.masthead .masthead-content .masthead-heading {
     font-size: 6rem;
   }
@@ -173,36 +126,18 @@ header.masthead .bg-circle-4 {
   }
 }
 
+@media (min-width: 576px) { 
+  header.masthead {
+    padding-top: calc(5rem + 55px);
+    padding-bottom: 10rem;
+  }
 
-
-.bg-primary {
-  background-color: #ee0979 !important;
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 6rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 4rem;
+  }
 }
 
-.btn-primary {
-  background-color: #ee0979;
-  border-color: #ee0979;
-}
-
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #bd0760 !important;
-  border-color: #bd0760 !important;
-}
-
-.btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
-}
-
-.btn-secondary {
-  background-color: #ff6a00;
-  border-color: #ff6a00;
-}
-
-.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-  background-color: #cc5500 !important;
-  border-color: #cc5500 !important;
-}
-
-.btn-secondary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
-}
+*/
