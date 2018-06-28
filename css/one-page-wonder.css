@@ -6,6 +6,7 @@ body {
   background-color: #F6F6F6;
 }
 
+
 h1,
 h2,
 h3,
@@ -25,7 +26,8 @@ h6 {
 }
 
 .bg-black {
-  background-color: #000 !important;
+  /* background-color: #000  */
+  background-color: rgba(0, 0, 0, 0.7);     
 }
 
 .rounded-pill {
@@ -100,8 +102,8 @@ header.masthead .bg-circle {
     height: 500px;
   }
   header.masthead {
-    padding-top: calc(10rem + 55px);
-    padding-bottom: 10rem;
+    padding-top: calc(4rem + 55px);
+    padding-bottom: 4rem;
   }
 
   header.masthead .masthead-content .masthead-heading {
