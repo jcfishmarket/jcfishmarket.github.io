@@ -5,7 +5,10 @@ var filesToCache = [
   '/css/one-page-wonder.css',
   'vendor/bootstrap/css/bootstrap.min.css',
   'vendor/jquery/jquery.min.js',
-  'vendor/bootstrap/js/bootstrap.bundle.min.js'
+  'vendor/bootstrap/js/bootstrap.bundle.min.js',
+  '/img/slide1.jpg',
+  '/img/slide2.jpg',
+  '/img/slide3.jpg'
   
 ];
 self.addEventListener('install', function(e) {
