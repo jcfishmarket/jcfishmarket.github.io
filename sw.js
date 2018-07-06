@@ -8,7 +8,8 @@ var filesToCache = [
   '/vendor/bootstrap/js/bootstrap.bundle.min.js',
   '/img/slide1.jpg',
   '/img/slide2.jpg',
-  '/img/slide3.jpg'
+  '/img/slide3.jpg',
+  '/img/header-bg.jpg'
   
 ];
 self.addEventListener('install', function(e) {
